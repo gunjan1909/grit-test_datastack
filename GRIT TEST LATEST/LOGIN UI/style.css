@@ -1,0 +1,85 @@
+body {
+  background: #000000;
+  background: linear-gradient(to right, #3595f5, #9dc8f3);
+}
+
+/* SCROLLBAR */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(108, 236, 253);
+  transition: 0.5s ease !important;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(44, 139, 218);
+  border-radius: 10px;
+  transition: 0.5s ease !important;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(23, 123, 153);
+}
+/* SCROLLBAR END */
+#logo {
+  display: block;
+  height: 5rem;
+  width: 5rem;
+  z-index: 100;
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  /* background: -webkit-linear-gradient(-45deg, #0076ba 0%, #00b0f0 100%); */
+  background: transparent;
+  border-radius: 100%;
+}
+
+#logo img {
+  display: inline-block;
+  height: 5rem;
+  width: 5rem;
+  z-index: 100;
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+}
+
+.card-img-left {
+  width: 45%;
+  /* background: url("./assets/login.jpg"); */
+  /* background: url("https://i.pinimg.com/736x/2d/2c/6c/2d2c6c7704ecf130a543426940d063f3.jpg"); */
+  background: linear-gradient(to left, #268df5, #9dc8f3);
+  /* background-image: url("https://data-stack-website-xc8uy.ondigitalocean.app/images/Datastack%20Fevicon%20white.png"); */
+  background-size: cover;
+  background-position: center;
+}
+
+.card-body {
+  background: linear-gradient(to right, #268df5, #83b7eb);
+}
+
+.btn {
+  color: rgb(7, 22, 102);
+}
+
+.btn-login {
+  font-size: 0.9rem;
+  letter-spacing: 0.05rem;
+  padding: 0.75rem 1rem;
+}
+
+.rotate {
+  animation: rotation 5s infinite linear;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}

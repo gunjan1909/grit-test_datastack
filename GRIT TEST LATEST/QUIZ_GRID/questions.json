@@ -1,0 +1,77 @@
+[
+  {
+    "qid": 1,
+    "question": "This is first question",
+    "choices": ["Option 1", "Option 2", "Option 3", "Option 4"],
+    "correctAnswer": 0,
+    "type": "mcq",
+    "marks": 95
+  },
+  {
+    "qid": 2,
+    "question": "This is second question",
+    "choices": ["A", "B", "C", "D"],
+    "correctAnswer": 1,
+    "type": "mcq",
+    "marks": 6
+  },
+  {
+    "qid": 3,
+    "question": "This is third question",
+    "choices": ["A", "B", "C", "D"],
+    "correctAnswer": 2,
+    "type": "mcq",
+    "marks": 3
+  },
+  {
+    "qid": 4,
+    "question": "This is fourth question",
+    "choices": ["A", "B", "C", "D"],
+    "correctAnswer": 3,
+    "type": "mcq",
+    "marks": 8
+  },
+  {
+    "qid": 5,
+    "question": "This is fifth question",
+    "correctAnswer": "Answer",
+    "type": "text",
+    "marks": 5
+  },
+  {
+    "qid": 6,
+    "question": "Lorem ipsum dolor sit amet. Ut voluptas architecto aut molestiae ipsa eum sapiente voluptates qui laborum provident sed maxime accusamus. Eos molestiae nobis rem fugiat odio est numquam consequatur et repellat fuga est quia ipsa sit blanditiis totam est eius ratione.<br> Et iste eius qui esse sint qui autem porro et mollitia maxime in deserunt internos est voluptas voluptatem ex alias culpa. Ut officia deleniti vel voluptatibus autem qui nihil eligendi non ducimus rerum et odio sint non natus magni. Ad odit voluptate id molestias omnis eum facere dolore At omnis vero.",
+    "paraQuesOption": [
+      {
+        "qid": 6.1,
+        "question": "This is para's first question",
+        "choices": ["A", "B", "C", "D"],
+        "correctAnswer": 0,
+        "type": "mcq"
+      },
+      {
+        "qid": 6.2,
+        "question": "This is para's second question",
+        "choices": ["A", "B", "C", "D"],
+        "correctAnswer": 1,
+        "type": "mcq"
+      },
+      {
+        "qid": 6.3,
+        "question": "This is para's third question",
+        "choices": ["A", "B", "C", "D"],
+        "correctAnswer": 2,
+        "type": "mcq"
+      },
+      {
+        "qid": 6.4,
+        "question": "This is para's fourth question",
+        "choices": ["A", "B", "C", "D"],
+        "correctAnswer": 3,
+        "type": "mcq"
+      }
+    ],
+    "type": "para",
+    "marks": 6
+  }
+]
